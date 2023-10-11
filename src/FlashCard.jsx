@@ -7,6 +7,7 @@ const [selectedId, setSelectedId] = useState(null)
 
 const handleClick = (id) => {
   setSelectedId(id)
+  console.log(id)
 }
 
   return ( 
